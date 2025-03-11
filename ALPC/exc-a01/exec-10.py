@@ -1,3 +1,5 @@
+import math
+
 pontos1 = input("Digite com espaco as duas primeiras coordenadas, sendo X e Y:").split()
 pontos2 = input("Digite com espaco as duas segundas coordenadas, sendo X e Y:").split()
 x1 = float(pontos1[0])
