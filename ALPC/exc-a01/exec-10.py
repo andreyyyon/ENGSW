@@ -12,3 +12,4 @@ y = (y1 - y2)**2
 calc3 = (x + y) ** 0.5
 
 print(f"A distancia entre o ponto X e Y é: {calc3}")
+
