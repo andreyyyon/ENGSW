@@ -1,4 +1,4 @@
-lista = [30, 20, 10, 5]
+lista = [30, 20, 10, 5, 40, 70, 15, 15]
 
 def maximo(lista):
     if len(lista) == 2:
@@ -6,3 +6,4 @@ def maximo(lista):
     sub_max = maximo(lista[1:]) # chama a função recursivamente com a lista sem o primeiro elemento
     return lista[0] if lista[0] > sub_max else sub_max # retorna o maior entre o primeiro elemento da lista e o maior dos outros elementos
 
+print(maximo(lista))
