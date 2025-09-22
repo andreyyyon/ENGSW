@@ -1,0 +1,4 @@
+/* 
+	4 – Selecionar todas as tuplas da relação agência situada na cidade de “Joinville” e valor de fundos entre 800000 e 1200000.
+*/
+σ (fundos > 800000 ∧ fundos < 1200000) ∧ Cidade_Agencia = 'Joinville' (Agencia)

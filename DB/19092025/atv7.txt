@@ -1,0 +1,5 @@
+/* 
+	7 – Listar o nome da agência e o nome da cidade de todas as tuplas da relação agência situadas nas cidades de “Blumenau” e “Joinville”.
+*/
+
+π Nome_Agencia, Cidade_Agencia σ Cidade_Agencia = 'Blumenau' ∨ Cidade_Agencia = 'Joinville' (Agencia)

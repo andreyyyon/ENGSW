@@ -1,0 +1,5 @@
+/* 
+	6 – Listar o número da conta e o saldo de todas as tuplas da relação conta cujo nome da agência é “Blumenau” e possua saldo menor que 800.
+*/
+
+π Numero_Conta, saldo σ Nome_Agencia > 'Blumenau' ∧ saldo < 800 (Conta)

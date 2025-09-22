@@ -1,0 +1,5 @@
+/* 
+	8 – Listar o nome da agencia e o valor dos fundos de todas as tuplas da relação agencia situada na cidade de “Joinville” e valor de fundos entre 800000 e 1200000.
+*/
+
+π Nome_Agencia, fundos σ Cidade_Agencia = 'Joinville' ∧ (fundos > 800000 ∧ fundos < 1200000) (Agencia)

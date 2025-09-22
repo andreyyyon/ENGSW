@@ -1,0 +1,4 @@
+/* 
+	1 – Selecionar todas as tuplas da relação conta cujo saldo é maior que 900.
+*/
+σ saldo > 900 (Conta)

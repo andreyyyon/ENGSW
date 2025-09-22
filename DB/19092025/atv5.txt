@@ -1,0 +1,5 @@
+/* 
+	5 – Listar o numero da conta de todas as tuplas da relação conta cujo saldo é maior que 900.
+*/
+
+π Numero_Conta σ saldo > 900 (Conta)

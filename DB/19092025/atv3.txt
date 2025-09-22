@@ -1,0 +1,4 @@
+/* 
+	3 – Selecionar todas as tuplas da relação agencia situadas nas cidades de “Blumenau” e “Joinville”.
+*/
+σ Cidade_Agencia = 'Blumenau' ∨ Cidade_Agencia = 'Joinville' (Agencia)
