@@ -1,0 +1,7 @@
+/* 
+	9 – Listar o nome da agência, o número do empréstimo e o nome do cliente de todos os clientes que constam na relação devedor.
+*/
+
+π Nome_Agencia, Numero_emprestimo, Nome_cliente 
+σ Emprestimo.Numero_emprestimo = Numero_emprestimo
+(Emprestimo ⨝ Devedor)

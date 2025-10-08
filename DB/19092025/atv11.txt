@@ -1,0 +1,7 @@
+/* 
+	11 – Listar o nome do cliente, o número da conta, nome da agência e o saldo da conta, de todos os clientes que fazem parte da relação depositante.
+*/
+
+π Nome_cliente, Numero_Conta, Nome_Agencia, saldo
+σ Conta.Numero_Conta = Numero_Conta
+(Conta ⨝ Depositante)

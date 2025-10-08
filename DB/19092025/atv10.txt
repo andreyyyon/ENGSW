@@ -1,0 +1,7 @@
+/* 
+	10 – Listar o nome da agencia, o número do empréstimo e o nome do cliente, de todos os clientes que constam da relação de devedor e que o total do empréstimo seja maior ou igual a 1900.
+*/
+
+π Nome_Agencia, Numero_emprestimo, Nome_cliente 
+σ Emprestimo.Numero_emprestimo = Numero_emprestimo ∧ Total > 1900
+(Emprestimo ⨝ Devedor)
